@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gsc": {
+      "command": "/usr/bin/python3",
+      "args": [
+        "/path/to/mcp-gsc/gsc_server.py"
+      ],
+      "env": {
+        "GSC_CREDENTIALS_PATH": "/Users/username/.gsc-credentials/service-account-key.json"
+      }
+    }
+  }
+}
